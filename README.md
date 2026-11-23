@@ -25,7 +25,7 @@ I'm **aiwren** (**捣鼓熊**), an independent developer building **quiet, tacti
 <summary><b>🇨🇳 中文介绍 (Chinese Introduction)</b></summary>
 <br/>
 
-我是**捣鼓熊 (aiwren)**，平时喜欢做一些**顺手、安静、本地优先（Local-First）**的软件工具：能放在设备端本地跑通的计算与模型推理，就不依赖云端上传；没有多余的账号墙，数据始终留在用户自己手里。
+我是**捣鼓熊 (aiwren)**，平时喜欢做一些<strong>顺手、安静、本地优先（Local-First）</strong>的软件工具：能放在设备端本地跑通的计算与模型推理，就不依赖云端上传；没有多余的账号墙，数据始终留在用户自己手里。
 
 - **[惊鸿 · FleetingGleam](https://github.com/aiwren/FleetingGleam)**（[中文官网](https://gleam.tinkerai.cn/zh/)）：运行在 Mac 与安卓手机上的开源本地照片筛选软件，把几千张照片里同一瞬间的连拍自动分组、多维可解释评分并标出最佳候选，支持中英文自然语言搜图与直连家庭 NAS。
 - **[老师工作台 · ClassDesk](https://tinkerai.cn/works/classdesk/)**：面向班主任日常工作的多端工作台，包含纯 JS 40×40 轻量卷积网络识别纸质作业登记表、端侧 PP-OCRv6 课表截图识别、教室大屏通知客户端与扫码授权 MCP 助手。
