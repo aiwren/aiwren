@@ -50,11 +50,11 @@
 
     <rect x="62" y="8" width="308" height="32" rx="16" fill="url(#pill)" stroke="#ffb86b" stroke-opacity="0.32" stroke-width="1"/>
     <circle cx="80" cy="24" r="4.5" fill="#46e088"/>
-    <text x="95" y="28.5" class="kicker">TINKERAI STUDIO · 捣鼓熊的小屋</text>
+    <text x="95" y="28.5" class="kicker">TINKERAI STUDIO · LOCAL-FIRST</text>
 
-    <text x="0" y="100" class="title">Hi, I&apos;m aiwren (捣鼓熊)</text>
+    <text x="0" y="100" class="title">Hi, I&apos;m aiwren</text>
     <text x="0" y="138" class="sub-en">Building quiet, tactile, local-first software &amp; on-device AI tools for macOS and Android.</text>
-    <text x="0" y="166" class="sub-zh">平时做一些顺手、安静、本地优先的工具：惊鸿 FleetingGleam · 老师工作台 ClassDesk</text>
+    <text x="0" y="166" class="sub-zh">Author of FleetingGleam (on-device photo culling) and ClassDesk.</text>
 
     <g transform="translate(0, 194)">
       <rect x="0" y="0" width="140" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>

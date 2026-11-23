@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://tinkerai.cn">
-  <img src="./assets/banner-en-v1.svg" alt="Hi, I'm aiwren — TinkerAI Studio" width="100%" />
+  <img src="./assets/banner-en-v2.svg" alt="Hi, I'm aiwren — TinkerAI Studio" width="100%" />
 </a>
 
 </div>
