@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 210" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 186" width="100%" height="100%">
   <defs>
     <linearGradient id="cbg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#181615"/>
@@ -10,26 +10,25 @@
     </linearGradient>
   </defs>
   <style>
-    .t { font: 800 22px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #fbf2e6; }
+    .t { font: 800 21px -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", sans-serif; fill: #fbf2e6; }
     .badge { font: 700 11.5px "SF Mono", "Menlo", monospace; fill: #8fd7ff; }
-    .p-zh { font: 400 14px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #d8c3ae; }
-    .p-en { font: 400 12.8px -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; fill: #9c8672; }
+    .p-en { font: 400 13.8px -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; fill: #DEC7B0; }
+    .p-zh { font: 400 12.5px -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; fill: #9c8672; }
     .tag { font: 600 11.5px "SF Mono", "Menlo", monospace; fill: #c6b09b; }
   </style>
-  <rect x="1.5" y="1.5" width="577" height="207" rx="18" fill="url(#cbg)" stroke="url(#cbdr)" stroke-width="1.5"/>
-  <g transform="translate(26, 26)">
-    <rect x="0" y="0" width="40" height="40" rx="11" fill="#1a242b" stroke="#7dcfff" stroke-opacity="0.38"/>
-    <text x="11" y="27" font-size="20">📋</text>
-    <text x="54" y="27" class="t">老师工作台 · ClassDesk</text>
+  <rect x="1.5" y="1.5" width="577" height="183" rx="18" fill="url(#cbg)" stroke="url(#cbdr)" stroke-width="1.5"/>
+  <g transform="translate(26, 24)">
+    <rect x="0" y="0" width="38" height="38" rx="11" fill="#1a242b" stroke="#7dcfff" stroke-opacity="0.38"/>
+    <text x="10" y="26" font-size="19">📋</text>
+    <text x="52" y="26" class="t">ClassDesk · 老师工作台</text>
     <rect x="412" y="5" width="116" height="26" rx="13" fill="#19232a" stroke="#7dcfff" stroke-opacity="0.35"/>
     <text x="427" y="22.5" class="badge">MULTI-DEVICE</text>
 
-    <text x="0" y="66" class="p-zh">面向班主任日常工作：手机点名记作业、纯 JS 40×40 卷积网络识别纸质</text>
-    <text x="0" y="88" class="p-zh">作业登记表、端侧 PP-OCRv6 课表截图识别、大屏通知客户端与 MCP 助手。</text>
-    <text x="0" y="114" class="p-en">Multi-platform teacher workspace with pure-JS 40×40 CNN paper sheet</text>
-    <text x="0" y="132" class="p-en">recognition, on-device timetable OCR, classroom display &amp; MCP skills.</text>
+    <text x="0" y="64" class="p-en">Multi-platform teacher workspace with pure-JS 40×40 CNN paper sheet</text>
+    <text x="0" y="84" class="p-en">recognition, on-device timetable OCR, classroom display &amp; MCP skills.</text>
+    <text x="0" y="108" class="p-zh">面向班主任日常工作：手机点名记作业、纯 JS 纸质作业表识别、课表 OCR 与大屏通知。</text>
 
-    <g transform="translate(0, 148)">
+    <g transform="translate(0, 126)">
       <circle cx="6" cy="11" r="5" fill="#54c5f8"/>
       <text x="18" y="15" class="tag">Flutter · Hono · PostgreSQL · Electron · CNN</text>
       <text x="444" y="15" class="badge">Case Study ↗</text>
