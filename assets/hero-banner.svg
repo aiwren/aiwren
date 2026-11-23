@@ -27,15 +27,15 @@
   </defs>
 
   <style>
-    .title { font: 800 40px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #fbf3e8; letter-spacing: -0.02em; }
-    .sub-zh { font: 500 18px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #DEC7B0; }
-    .sub-en { font: 500 15.5px -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; fill: #a9927c; }
-    .kicker { font: 700 12.5px "SF Mono", "Menlo", monospace; fill: #ffC478; letter-spacing: 0.14em; }
+    .title { font: 800 38px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #fbf3e8; letter-spacing: -0.02em; }
+    .sub-zh { font: 500 17px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #dec7b0; }
+    .sub-en { font: 500 14.5px -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; fill: #a9927c; }
+    .kicker { font: 700 12.5px "SF Mono", "Menlo", monospace; fill: #ffc478; letter-spacing: 0.12em; }
     .code { font: 600 13.5px "SF Mono", "Menlo", monospace; }
     .cursor { animation: blink 1.15s step-end infinite; }
     .float { animation: drift 6s ease-in-out infinite; }
     @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
-    @keyframes drift { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-4px); } }
+    @keyframes drift { 0%, 100% { transform: translate(756px, 44px); } 50% { transform: translate(756px, 39px); } }
   </style>
 
   <!-- Outer Card -->
@@ -46,14 +46,14 @@
   <polygon points="920,4 1196,4 1196,240 660,318 480,318" fill="url(#beam)"/>
 
   <!-- Subtle grid dots -->
-  <g fill="#ffffff" fill-opacity="0.04">
-    <circle cx="640" cy="48" r="1.5"/><circle cx="680" cy="48" r="1.5"/><circle cx="720" cy="48" r="1.5"/><circle cx="760" cy="48" r="1.5"/>
-    <circle cx="640" cy="88" r="1.5"/><circle cx="680" cy="88" r="1.5"/><circle cx="720" cy="88" r="1.5"/><circle cx="760" cy="88" r="1.5"/>
-    <circle cx="640" cy="128" r="1.5"/><circle cx="680" cy="128" r="1.5"/><circle cx="720" cy="128" r="1.5"/><circle cx="760" cy="128" r="1.5"/>
+  <g fill="#ffffff" fill-opacity="0.05">
+    <circle cx="640" cy="48" r="1.5"/><circle cx="672" cy="48" r="1.5"/><circle cx="704" cy="48" r="1.5"/>
+    <circle cx="640" cy="80" r="1.5"/><circle cx="672" cy="80" r="1.5"/><circle cx="704" cy="80" r="1.5"/>
+    <circle cx="640" cy="112" r="1.5"/><circle cx="672" cy="112" r="1.5"/><circle cx="704" cy="112" r="1.5"/>
   </g>
 
-  <!-- Left Content: Bear Badge + Kicker -->
-  <g transform="translate(56, 46)">
+  <!-- Left Content: Bear Badge + Kicker (strictly within x=56..700) -->
+  <g transform="translate(56, 44)">
     <!-- Bear Avatar Icon -->
     <rect x="0" y="0" width="46" height="46" rx="14" fill="#29201a" stroke="#ffb86b" stroke-opacity="0.45" stroke-width="1.5"/>
     <circle cx="13.5" cy="13.5" r="5" fill="#f3dcc3"/>
@@ -72,30 +72,30 @@
     <text x="93" y="27.5" class="kicker">TINKERAI STUDIO · 窗边工作间</text>
 
     <!-- Main Heading -->
-    <text x="0" y="106" class="title">嗨，我是捣鼓熊 (aiwren)</text>
-    <text x="0" y="146" class="sub-zh">平时做一些顺手、安静、本地优先的工具：惊鸿 FleetingGleam 与 老师工作台 ClassDesk。</text>
-    <text x="0" y="176" class="sub-en">Crafting quiet, tactile, local-first software &amp; on-device AI tools for macOS, Android, and Web.</text>
+    <text x="0" y="102" class="title">嗨，我是捣鼓熊 (aiwren)</text>
+    <text x="0" y="142" class="sub-zh">平时做一些顺手、安静、本地优先的工具（惊鸿 · 老师工作台 · 窗边工作间）。</text>
+    <text x="0" y="172" class="sub-en">Crafting quiet, tactile, local-first software &amp; on-device AI tools for macOS &amp; Android.</text>
 
     <!-- Bottom Tags -->
-    <g transform="translate(0, 202)">
-      <rect x="0" y="0" width="144" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
-      <text x="16" y="20" class="code" fill="#ffd093">🔒 Local-First</text>
+    <g transform="translate(0, 200)">
+      <rect x="0" y="0" width="142" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="15" y="20" class="code" fill="#ffd093">🔒 Local-First</text>
 
-      <rect x="156" y="0" width="154" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
-      <text x="172" y="20" class="code" fill="#9ece6a">⚡ On-Device AI</text>
+      <rect x="152" y="0" width="152" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="167" y="20" class="code" fill="#9ece6a">⚡ On-Device AI</text>
 
-      <rect x="322" y="0" width="148" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
-      <text x="338" y="20" class="code" fill="#7dcfff">🦀 Rust &amp; Tauri</text>
+      <rect x="314" y="0" width="146" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="329" y="20" class="code" fill="#7dcfff">🦀 Rust &amp; Tauri</text>
 
-      <rect x="482" y="0" width="152" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
-      <text x="498" y="20" class="code" fill="#bb9af7">📱 Kotlin/Flutter</text>
+      <rect x="470" y="0" width="154" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="485" y="20" class="code" fill="#bb9af7">📱 Kotlin/Flutter</text>
     </g>
   </g>
 
   <!-- Right Floating Code Terminal Window (mirrors the 3D monitor in the room!) -->
-  <g class="float" transform="translate(760, 44)">
-    <rect x="0" y="0" width="388" height="232" rx="16" fill="#161311" fill-opacity="0.94" stroke="#ffc680" stroke-opacity="0.32" stroke-width="1.5"/>
-    <rect x="1" y="1" width="386" height="38" rx="15" fill="#261f1a"/>
+  <g class="float" transform="translate(756, 44)">
+    <rect x="0" y="0" width="392" height="232" rx="16" fill="#161311" fill-opacity="0.95" stroke="#ffc680" stroke-opacity="0.32" stroke-width="1.5"/>
+    <rect x="1" y="1" width="390" height="38" rx="15" fill="#261f1a"/>
     <circle cx="22" cy="20" r="5.5" fill="#ff6b57"/>
     <circle cx="40" cy="20" r="5.5" fill="#ffbe3d"/>
     <circle cx="58" cy="20" r="5.5" fill="#33d17a"/>
