@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 210" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191513"/>
+      <stop offset="100%" stop-color="#121011"/>
+    </linearGradient>
+    <linearGradient id="gbdr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb86b" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.10"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font: 800 22px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #fbf2e6; }
+    .badge { font: 700 11.5px "SF Mono", "Menlo", monospace; fill: #ffca80; }
+    .p-zh { font: 400 14px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #d8c3ae; }
+    .p-en { font: 400 12.8px -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; fill: #9c8672; }
+    .tag { font: 600 11.5px "SF Mono", "Menlo", monospace; fill: #c6b09b; }
+  </style>
+  <rect x="1.5" y="1.5" width="577" height="207" rx="18" fill="url(#gbg)" stroke="url(#gbdr)" stroke-width="1.5"/>
+  <g transform="translate(26, 26)">
+    <rect x="0" y="0" width="40" height="40" rx="11" fill="#2b211a" stroke="#ffb86b" stroke-opacity="0.4"/>
+    <text x="11" y="27" font-size="20">✨</text>
+    <text x="54" y="27" class="t">惊鸿 · FleetingGleam</text>
+    <rect x="424" y="5" width="104" height="26" rx="13" fill="#2c2119" stroke="#ffb86b" stroke-opacity="0.35"/>
+    <text x="440" y="22.5" class="badge">OPEN SOURCE</text>
+
+    <text x="0" y="66" class="p-zh">运行在 Mac 与安卓上的本地照片筛选软件：连拍自动分组、多维可解释评分</text>
+    <text x="0" y="88" class="p-zh">并标出最佳候选，支持自然语言搜图与直连 NAS，照片全程不离开设备。</text>
+    <text x="0" y="114" class="p-en">On-device photo culling for macOS &amp; Android. Burst grouping, explainable</text>
+    <text x="0" y="132" class="p-en">scoring, RAW+JPG pairing &amp; local semantic search — nothing uploaded.</text>
+
+    <g transform="translate(0, 148)">
+      <circle cx="6" cy="11" r="5" fill="#dea584"/>
+      <text x="18" y="15" class="tag">Rust · Tauri 2 · Swift · Kotlin · React · AGPL-3.0</text>
+      <text x="448" y="15" class="badge">macOS / Android ↗</text>
+    </g>
+  </g>
+</svg>

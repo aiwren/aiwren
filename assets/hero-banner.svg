@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12100e"/>
+      <stop offset="52%" stop-color="#1c1612"/>
+      <stop offset="100%" stop-color="#110f12"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="85%" cy="22%" r="65%">
+      <stop offset="0%" stop-color="#ffb86b" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#e08b44" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#12100e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcf96" stop-opacity="0.42"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffb86b" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="100%" y1="0%" x2="20%" y2="100%">
+      <stop offset="0%" stop-color="#ffd29d" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#ffb366" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffb366" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2c221c"/>
+      <stop offset="100%" stop-color="#231c18"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font: 800 40px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #fbf3e8; letter-spacing: -0.02em; }
+    .sub-zh { font: 500 18px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #DEC7B0; }
+    .sub-en { font: 500 15.5px -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; fill: #a9927c; }
+    .kicker { font: 700 12.5px "SF Mono", "Menlo", monospace; fill: #ffC478; letter-spacing: 0.14em; }
+    .code { font: 600 13.5px "SF Mono", "Menlo", monospace; }
+    .cursor { animation: blink 1.15s step-end infinite; }
+    .float { animation: drift 6s ease-in-out infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.15; } }
+    @keyframes drift { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-4px); } }
+  </style>
+
+  <!-- Outer Card -->
+  <rect x="2" y="2" width="1196" height="316" rx="26" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="2" y="2" width="1196" height="316" rx="26" fill="url(#sun)"/>
+
+  <!-- Warm afternoon window sunbeam polygon -->
+  <polygon points="920,4 1196,4 1196,240 660,318 480,318" fill="url(#beam)"/>
+
+  <!-- Subtle grid dots -->
+  <g fill="#ffffff" fill-opacity="0.04">
+    <circle cx="640" cy="48" r="1.5"/><circle cx="680" cy="48" r="1.5"/><circle cx="720" cy="48" r="1.5"/><circle cx="760" cy="48" r="1.5"/>
+    <circle cx="640" cy="88" r="1.5"/><circle cx="680" cy="88" r="1.5"/><circle cx="720" cy="88" r="1.5"/><circle cx="760" cy="88" r="1.5"/>
+    <circle cx="640" cy="128" r="1.5"/><circle cx="680" cy="128" r="1.5"/><circle cx="720" cy="128" r="1.5"/><circle cx="760" cy="128" r="1.5"/>
+  </g>
+
+  <!-- Left Content: Bear Badge + Kicker -->
+  <g transform="translate(56, 46)">
+    <!-- Bear Avatar Icon -->
+    <rect x="0" y="0" width="46" height="46" rx="14" fill="#29201a" stroke="#ffb86b" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="13.5" cy="13.5" r="5" fill="#f3dcc3"/>
+    <circle cx="32.5" cy="13.5" r="5" fill="#f3dcc3"/>
+    <circle cx="13.5" cy="13.5" r="2.4" fill="#c7986b"/>
+    <circle cx="32.5" cy="13.5" r="2.4" fill="#c7986b"/>
+    <circle cx="23" cy="24.5" r="12.5" fill="#f3dcc3"/>
+    <circle cx="18.3" cy="22.5" r="1.8" fill="#231812"/>
+    <circle cx="27.7" cy="22.5" r="1.8" fill="#231812"/>
+    <ellipse cx="23" cy="27.5" rx="4.2" ry="3.1" fill="#fff6ec"/>
+    <circle cx="23" cy="26.5" r="1.6" fill="#231812"/>
+
+    <!-- Kicker Pill -->
+    <rect x="60" y="7" width="302" height="32" rx="16" fill="url(#pill)" stroke="#ffb86b" stroke-opacity="0.32" stroke-width="1"/>
+    <circle cx="78" cy="23" r="4.5" fill="#46e088"/>
+    <text x="93" y="27.5" class="kicker">TINKERAI STUDIO · 窗边工作间</text>
+
+    <!-- Main Heading -->
+    <text x="0" y="106" class="title">嗨，我是捣鼓熊 (aiwren)</text>
+    <text x="0" y="146" class="sub-zh">平时做一些顺手、安静、本地优先的工具：惊鸿 FleetingGleam 与 老师工作台 ClassDesk。</text>
+    <text x="0" y="176" class="sub-en">Crafting quiet, tactile, local-first software &amp; on-device AI tools for macOS, Android, and Web.</text>
+
+    <!-- Bottom Tags -->
+    <g transform="translate(0, 202)">
+      <rect x="0" y="0" width="144" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="16" y="20" class="code" fill="#ffd093">🔒 Local-First</text>
+
+      <rect x="156" y="0" width="154" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="172" y="20" class="code" fill="#9ece6a">⚡ On-Device AI</text>
+
+      <rect x="322" y="0" width="148" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="338" y="20" class="code" fill="#7dcfff">🦀 Rust &amp; Tauri</text>
+
+      <rect x="482" y="0" width="152" height="30" rx="8" fill="#241d18" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="498" y="20" class="code" fill="#bb9af7">📱 Kotlin/Flutter</text>
+    </g>
+  </g>
+
+  <!-- Right Floating Code Terminal Window (mirrors the 3D monitor in the room!) -->
+  <g class="float" transform="translate(760, 44)">
+    <rect x="0" y="0" width="388" height="232" rx="16" fill="#161311" fill-opacity="0.94" stroke="#ffc680" stroke-opacity="0.32" stroke-width="1.5"/>
+    <rect x="1" y="1" width="386" height="38" rx="15" fill="#261f1a"/>
+    <circle cx="22" cy="20" r="5.5" fill="#ff6b57"/>
+    <circle cx="40" cy="20" r="5.5" fill="#ffbe3d"/>
+    <circle cx="58" cy="20" r="5.5" fill="#33d17a"/>
+    <text x="80" y="24.5" class="code" fill="#d9c2ab">tinkerai.cn — studio.ts</text>
+
+    <g transform="translate(22, 66)" class="code">
+      <text x="0" y="0" fill="#6f5c4b">1</text>
+      <text x="26" y="0" fill="#7fe0a0">$</text>
+      <text x="42" y="0" fill="#f5eadc">nvim studio.ts</text>
+
+      <text x="0" y="28" fill="#6f5c4b">2</text>
+      <text x="26" y="28" fill="#9c8773">// 捣鼓熊的小屋 · Local-First</text>
+
+      <text x="0" y="56" fill="#6f5c4b">3</text>
+      <text x="26" y="56" fill="#ff9e64">const</text>
+      <text x="76" y="56" fill="#ffd599">studio</text>
+      <text x="134" y="56" fill="#f5eadc">= {</text>
+
+      <text x="0" y="84" fill="#6f5c4b">4</text>
+      <text x="40" y="84" fill="#d8c6b4">works:</text>
+      <text x="98" y="84" fill="#9ece6a">["惊鸿", "老师工作台"]</text>
+      <text x="282" y="84" fill="#f5eadc">,</text>
+
+      <text x="0" y="112" fill="#6f5c4b">5</text>
+      <text x="40" y="112" fill="#d8c6b4">cloudUpload:</text>
+      <text x="148" y="112" fill="#ff9e64">false</text>
+      <text x="196" y="112" fill="#f5eadc">};</text>
+
+      <text x="0" y="142" fill="#6f5c4b">6</text>
+      <text x="26" y="142" fill="#7dcfff">&gt; build(studio)</text>
+      <text x="162" y="142" fill="#46e088">✓ Ready</text>
+      <rect x="234" y="128" width="10" height="17" fill="#ffb84d" class="cursor"/>
+    </g>
+  </g>
+</svg>

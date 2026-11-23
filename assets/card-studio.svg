@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 154" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191614"/>
+      <stop offset="100%" stop-color="#131112"/>
+    </linearGradient>
+    <linearGradient id="sbdr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9ece6a" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#ffb86b" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t { font: 800 21px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #fbf2e6; }
+    .badge { font: 700 11.5px "SF Mono", "Menlo", monospace; fill: #a7db74; }
+    .p-zh { font: 400 14px -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", sans-serif; fill: #d8c3ae; }
+    .p-en { font: 400 12.8px -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif; fill: #9c8672; }
+    .tag { font: 600 11.5px "SF Mono", "Menlo", monospace; fill: #c6b09b; }
+  </style>
+  <rect x="1.5" y="1.5" width="1177" height="151" rx="18" fill="url(#sbg)" stroke="url(#sbdr)" stroke-width="1.5"/>
+  <g transform="translate(26, 24)">
+    <rect x="0" y="0" width="40" height="40" rx="11" fill="#1e261a" stroke="#9ece6a" stroke-opacity="0.4"/>
+    <text x="11" y="27" font-size="20">🏠</text>
+    <text x="54" y="27" class="t">把一间小屋，做成网站 · TinkerAI Window Studio (tinkerai.cn)</text>
+    <rect x="975" y="5" width="152" height="26" rx="13" fill="#1e2519" stroke="#9ece6a" stroke-opacity="0.35"/>
+    <text x="992" y="22.5" class="badge">INTERACTIVE 3D</text>
+
+    <text x="0" y="64" class="p-zh">用 Blender 搭一间窗边工作间，从固定相机发射射线提取可见表面的精确 SVG 轮廓，并烘焙局部 WebP 姿态图条：把 26 MB 场景浓缩成 49 KB 的可交互个人主页。</text>
+    <text x="0" y="86" class="p-en">Distilling a 26 MB Blender studio into a 49 KB interactive first frame using camera ray-cast SVG hit contours and localized WebP motion strips.</text>
+
+    <g transform="translate(0, 98)">
+      <circle cx="6" cy="11" r="5" fill="#9ece6a"/>
+      <text x="18" y="15" class="tag">Next.js · Blender 5 · Cycles · Ray-Cast SVG Contours · HTML5 Canvas · Liquid Glass UI</text>
+      <text x="998" y="15" class="badge">Visit tinkerai.cn ↗</text>
+    </g>
+  </g>
+</svg>
